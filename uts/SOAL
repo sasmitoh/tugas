@@ -1,0 +1,33 @@
+1. What is the difference between =(single- equal) and ==(double-equal),give 
+an example?
+
+2. What will be the output of the following code, and give explaination?
+    a,b,c = 100,300,200
+    d =a & b
+    d +=b
+    e=a*b*c
+    f=((d<b) and (d<a))
+    print(a,b,c,d,e,f) 
+
+3.How is the code of the following results?
+    score= 91 s/d 100  -> grade : A
+    score= 81 s/d 90   -> grade : B
+    score= 71 s/d 80   -> grade : C
+    score= 61 s/d 70   -> grade : D
+    score= 51 s/d 60   -> grade : E
+    score= 0  s/d 50   -> grade : F
+4. How is the code of the following results ?
+    7,14,21,28,35,42,49,56,63,70,77,84,91,98,105,112,119,126,133,140
+
+5. What will be the output of the following code, and give explaination?
+    angka=[7,14,21,28,35,42,49,56,63,70,77,84,91,98,105,112,119,126,133,140]
+    x=0
+    for i in angka:
+        x +=i
+    print(i,x)
+
+    print(x)
+
+
+
+

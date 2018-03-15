@@ -1,0 +1,85 @@
+1. What is the difference between =(single- equal) and ==(double-equal),give  an example?
+
+        ANSWER
+    ================
+
+    = is an assignment operator
+    == is an equality operator
+     example
+    a = 10 # the value of a is 10.
+
+    b = 5
+    c = 10
+    d = 10
+    b == c #false because 5 is not equal to 10
+    c == d #true because 10 is equal to 10
+
+2. What will be the output of the following code, and give explaination?
+    a,b,c = 100,300,200
+    d =a & b
+    d +=b
+    e=a*b*c
+    f=((d<b) and (d<a))
+    print(a,b,c,d,e,f) 
+
+        ANSWER
+    ================
+    (100, 300, 200, 336, 6000000, False).
+
+
+3.How is the code of the following results?
+    score= 91 s/d 100  -> grade : A
+    score= 81 s/d 90   -> grade : B
+    score= 71 s/d 80   -> grade : C
+    score= 61 s/d 70   -> grade : D
+    score= 51 s/d 60   -> grade : E
+    score= 0  s/d 50   -> grade : F  
+
+        ANSWER
+    ================
+    score = int(raw_input('Enter the Score : '))
+    score = float(score)
+
+    if score >= 91:
+        grade = 'A'
+    elif score >= 81:
+        grade = 'B'
+    elif score >=71:
+        grade = 'C'
+    elif score >=61:
+        grade = 'D'
+    elif score >=51:
+        grade = 'E'
+    else:
+        grade = 'F'
+    print 'Your Grade : ' + grade  
+
+4. How is the code of the following results ?
+    7,14,21,28,35,42,49,56,63,70,77,84,91,98,105,112,119,126,133,140
+
+        ANSWER
+    ================
+    i = 1
+    while i <= 20:
+        print 7 * i,'',
+        i += 1
+    print
+    
+5. What will be the output of the following code, and give explaination?
+    angka=[7,14,21,28,35,42,49,56,63,70,77,84,91,98,105,112,119,126,133,140]
+    x=0
+    for i in angka:
+        x +=i
+    print(i,x)
+
+    print(x)
+
+      ANSWER
+    ================
+    angka=[7,14,21,28,35,42,49,56,63,70,77,84,91,98,105,112,119,126,133,140]
+    x=0
+    for i in angka:
+        x +=i
+    print(i,x)
+
+    print(x)
